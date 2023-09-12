@@ -13,7 +13,7 @@ const Aboutus = () => {
         <div style={{marginTop:'50px'}}>
             <Menu/>
             <Languageoption onChange={(e)=> handleClick(e)}/>
-            <h1>{t('welcome')} {t('home')} ||  {t('Aman')} {t('Kashyap')}  </h1>
+            <h1>{t('welcome')} {t('about')} ||  {t('Aman')} {t('Kashyap')}  </h1>
         </div>
        
     )
